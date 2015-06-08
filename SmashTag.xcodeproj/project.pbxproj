@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2874FE1A1B24C92A0085E9EA /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874FE191B24C92A0085E9EA /* TweetTableViewCell.swift */; };
 		28C0FC861B24B9CA00379531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FC851B24B9CA00379531 /* AppDelegate.swift */; };
 		28C0FC881B24B9CA00379531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FC871B24B9CA00379531 /* ViewController.swift */; };
 		28C0FC8B1B24B9CA00379531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C0FC891B24B9CA00379531 /* Main.storyboard */; };
 		28C0FC8D1B24B9CA00379531 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C0FC8C1B24B9CA00379531 /* Images.xcassets */; };
 		28C0FC901B24B9CA00379531 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28C0FC8E1B24B9CA00379531 /* LaunchScreen.xib */; };
 		28C0FC9C1B24B9CA00379531 /* SmashTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FC9B1B24B9CA00379531 /* SmashTagTests.swift */; };
+		28C0FCA61B24BA7600379531 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FCA51B24BA7600379531 /* TweetTableViewController.swift */; };
+		28C0FCAF1B24BEB900379531 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FCAB1B24BEB900379531 /* MediaItem.swift */; };
+		28C0FCB01B24BEB900379531 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FCAC1B24BEB900379531 /* Tweet.swift */; };
+		28C0FCB11B24BEB900379531 /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FCAD1B24BEB900379531 /* TwitterRequest.swift */; };
+		28C0FCB21B24BEB900379531 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0FCAE1B24BEB900379531 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2874FE191B24C92A0085E9EA /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		28C0FC801B24B9CA00379531 /* SmashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C0FC841B24B9CA00379531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C0FC851B24B9CA00379531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		28C0FC951B24B9CA00379531 /* SmashTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C0FC9A1B24B9CA00379531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C0FC9B1B24B9CA00379531 /* SmashTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashTagTests.swift; sourceTree = "<group>"; };
+		28C0FCA51B24BA7600379531 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		28C0FCAB1B24BEB900379531 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		28C0FCAC1B24BEB900379531 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		28C0FCAD1B24BEB900379531 /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
+		28C0FCAE1B24BEB900379531 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +91,13 @@
 			children = (
 				28C0FC851B24B9CA00379531 /* AppDelegate.swift */,
 				28C0FC871B24B9CA00379531 /* ViewController.swift */,
+				28C0FCAB1B24BEB900379531 /* MediaItem.swift */,
+				28C0FCAC1B24BEB900379531 /* Tweet.swift */,
+				28C0FCAD1B24BEB900379531 /* TwitterRequest.swift */,
+				28C0FCAE1B24BEB900379531 /* User.swift */,
 				28C0FC891B24B9CA00379531 /* Main.storyboard */,
+				2874FE191B24C92A0085E9EA /* TweetTableViewCell.swift */,
+				28C0FCA51B24BA7600379531 /* TweetTableViewController.swift */,
 				28C0FC8C1B24B9CA00379531 /* Images.xcassets */,
 				28C0FC8E1B24B9CA00379531 /* LaunchScreen.xib */,
 				28C0FC831B24B9CA00379531 /* Supporting Files */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C0FCA61B24BA7600379531 /* TweetTableViewController.swift in Sources */,
+				28C0FCB01B24BEB900379531 /* Tweet.swift in Sources */,
+				28C0FCAF1B24BEB900379531 /* MediaItem.swift in Sources */,
 				28C0FC881B24B9CA00379531 /* ViewController.swift in Sources */,
 				28C0FC861B24B9CA00379531 /* AppDelegate.swift in Sources */,
+				28C0FCB11B24BEB900379531 /* TwitterRequest.swift in Sources */,
+				28C0FCB21B24BEB900379531 /* User.swift in Sources */,
+				2874FE1A1B24C92A0085E9EA /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +435,7 @@
 				28C0FCA11B24B9CA00379531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C0FCA21B24B9CA00379531 /* Build configuration list for PBXNativeTarget "SmashTagTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				28C0FCA41B24B9CA00379531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
